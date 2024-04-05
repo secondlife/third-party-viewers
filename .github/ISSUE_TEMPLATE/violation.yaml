@@ -1,0 +1,33 @@
+name: Violation
+description: Report a violation of the Viewer Directory Policy.
+title: "[VIOLATION]: "
+labels: ["violation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you believe that you have direct evidence that any third party viewer (whether
+        listed in the [Third Party Viewer Directory](https://wiki.secondlife.com/wiki/Third_Party_Viewer_Directory)
+        or not) may be in violation of the [Second Life Terms of Service](https://lindenlab.com/legal/second-life-terms-and-conditions)
+        or the [Policy on Third Party Viewers](https://secondlife.com/corporate/third-party-viewers),
+        you can provide details here so that it can be investigated.
+
+        _Please note that this form is public and will be visible to anyone who visits this repository._
+  - type: input
+    id: viewer-name
+    attributes:
+      label: Viewer Name
+      description: The name of the viewer you are submitting.
+      placeholder: Viewer Name
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: |
+        Please provide details of the violation, including links, pictures, and
+        any other relevant information.
+      placeholder: Details of the violation
+    validations:
+      required: true
