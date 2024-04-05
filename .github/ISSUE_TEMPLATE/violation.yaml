@@ -5,7 +5,7 @@ labels: ["violation"]
 body:
   - type: markdown
     attributes:
-      value: |
+      value: >
         If you believe that you have direct evidence that any third party viewer (whether
         listed in the [Third Party Viewer Directory](https://wiki.secondlife.com/wiki/Third_Party_Viewer_Directory)
         or not) may be in violation of the [Second Life Terms of Service](https://lindenlab.com/legal/second-life-terms-and-conditions)
