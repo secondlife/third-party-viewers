@@ -1,0 +1,29 @@
+name: Update
+description: Request an update to a TPV Listing.
+title: "[UPDATE]: "
+labels: ["update"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        If you are the owner of a viewer listing in
+        the [Third Party Viewer Directory](https://wiki.secondlife.com/wiki/Third_Party_Viewer_Directory),
+        use this to request an update to the contents.
+
+        _Please note that this form is public and will be visible to anyone who visits this repository._
+  - type: input
+    id: viewer-name
+    attributes:
+      label: Viewer Name
+      description: The name of the viewer listing you control.
+      placeholder: Viewer Name
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: |
+        Please specify what updates you would like to have made to the listing.
+    validations:
+      required: true
